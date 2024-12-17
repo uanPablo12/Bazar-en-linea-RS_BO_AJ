@@ -1,0 +1,333 @@
+
+*{
+background:#A69C94;
+}
+
+.inicio
+{
+    min-height: 100vh;
+    padding: 9%;
+    padding-top: 7.5rem;
+    padding-bottom: 2rem;
+}
+.inicio .content p
+{
+    text-align: center;
+    font-size: 40px;
+    background-color: black;
+    color: aliceblue;
+    border-radius: 40px;
+}
+
+.inicio .botones .btn img
+{
+width: 600px;
+height: 700px;
+
+}
+.botones 
+{
+    display: flex;
+    width: 40px;
+    text-align: center;
+}
+
+.btn
+{
+    display: inline-block;
+    margin-top: 1rem;
+    margin-left: 20px;
+    padding: 2rem 2rem;
+    background:black;
+    font-size: 1.2rem;
+    color: white;
+    border-radius: 50px;
+    cursor: pointer;
+    box-shadow: 0.5rem 1rem rgbs(0,0,0,.1);
+    transition: all .3s linear;
+    text-decoration: none;
+    font-family: fantasy;
+    font-size: 40px;
+}
+
+.btn:hover
+{
+    transform: scale(1.1);
+}
+
+.cabeza
+{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-image: url(imagenes/Eyes.jpg) ;
+    box-shadow: 0 .3rem .1rem rgba(0, 0, 0, .1);
+    padding: 2rem 5%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1000;
+}
+.cabeza .logo
+{
+ color: aliceblue;
+ font-size: 30px;
+ background-color: black;
+ padding: 20px;
+ border-radius: 40px;
+ text-decoration: none;
+ font-family: fantasy;
+
+}
+.cabeza
+{
+  width: 95pc;
+}
+ 
+.cabeza .menu_var
+{
+    padding: 10px;
+    background:none;
+    background-color: black;
+    border-radius: 40px;
+}
+.cabeza .menu_var a
+{
+    background:none;
+    color: aliceblue;
+    text-decoration: none;
+    font-family: fantasy;
+    font-size: 20px;
+    text-align: center;
+    margin: auto;
+    margin-left: 10px;
+}
+
+
+.Ropa p
+{
+    text-align: center;
+    background-color: black;
+    font-size: 40px;
+    font-family: fantasy;
+    color: aliceblue;
+}
+.Ropa img
+{
+ width: 200px;
+ height: 300px;
+ 
+}
+.Ropa button
+{
+    padding: 10px;
+    margin: auto;
+    color: aliceblue;
+    font-family: fantasy;
+    font-size: 20px;
+    background-color: black;
+    border-radius: 20px;
+}
+
+
+
+.Accesorios p
+{
+    text-align: center;
+    background-color: black;
+    font-size: 40px;
+    font-family: fantasy;
+    color: aliceblue;
+}
+.Accesorios img
+{
+ width: 200px;
+ height: 300px;
+ 
+}
+.Accesorios button
+{
+    padding: 10px;
+    margin: auto;
+    color: aliceblue;
+    font-family: fantasy;
+    font-size: 20px;
+    background-color: black;
+    border-radius: 20px;
+}
+
+.Zapatos p
+{
+    text-align: center;
+    background-color: black;
+    font-size: 40px;
+    font-family: fantasy;
+    color: aliceblue;
+}
+.Zapatos img
+{
+ width: 200px;
+ height: 300px;
+ 
+}
+.Zapatos button
+{
+    padding: 10px;
+    margin: auto;
+    color: aliceblue;
+    font-family: fantasy;
+    font-size: 20px;
+    background-color: black;
+    border-radius: 20px;
+}
+
+
+.Bolsos p
+{
+    text-align: center;
+    background-color: black;
+    font-size: 40px;
+    font-family: fantasy;
+    color: aliceblue;
+}
+.Bolsos img
+{
+ width: 200px;
+ height: 300px;
+ 
+}
+.Bolsos button
+{
+    padding: 10px;
+    margin: auto;
+    color: aliceblue;
+    font-family: fantasy;
+    font-size: 20px;
+    background-color: black;
+    border-radius: 20px;
+}
+
+.Acerca_de .info p
+{
+    font-size: 40px;
+    padding: 40px;
+    color: aliceblue;
+    background-color: black;
+    font-family: fantasy;
+    border-radius: 40px;
+    box-shadow: #A69C94;
+    text-align: center;
+}
+
+
+.pie h3
+{
+ font-size: 40px;
+ color: aliceblue;
+ font-family:serif;
+ text-align: center;
+ padding: 3rem;
+ background: url(imagenes/Eyes.jpg) no-repeat;
+ background-size: cover;
+ background-position: center;
+}
+
+.Registro
+{
+ height: auto;
+ width: auto;
+ margin-top: 25pc;
+} 
+.formulario
+{
+    width: 320px;
+    background: #000000;  
+    padding: 40px 20px;
+    box-sizing: border-box;
+    position:relative;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+
+}
+input[type="text"]
+{
+    width: 100%;
+    background: none;
+    border: 1px solid #ffffff;
+    border-radius: 3px;
+    padding: 6px 15px;
+    box-sizing: border-box;
+    margin-bottom: 20px ;
+    color: rgb(255, 255, 255);
+}
+input[type="password"]
+{
+    width: 100%;
+    background: none;
+    border: 1px solid #ffffff;
+    border-radius: 3px;
+    padding: 6px 15px;
+    box-sizing: border-box;
+    margin-bottom: 20px ;
+    color: rgb(255, 255, 255);
+}
+input[type="radio"]
+{
+    width: 6px 15px;
+    padding: 6px 15px;
+    box-sizing: border-box;
+    margin-bottom: 20px ;
+    color: rgb(255, 255, 255);
+}
+input[type="email"]
+{
+    width: 100%;
+    background: none;
+    border: 1px solid #ffffff;
+    border-radius: 3px;
+    padding: 6px 15px;
+    box-sizing: border-box;
+    margin-bottom: 20px ;
+    color: rgb(255, 255, 255);
+}
+select[class="seleccion"]
+{
+    width: 100%;
+    background: #000000;
+    border: 1px solid #ffffff;
+    border-radius: 3px;
+    padding: 6px 15px;
+    box-sizing: border-box;
+    margin-bottom: 20px ;
+    color: rgb(0, 0, 0);
+}
+input[type="phone"]
+{
+    width: 100%;
+    background: none;
+    border: 1px solid #ffffff;
+    border-radius: 3px;
+    padding: 6px 15px;
+    box-sizing: border-box;
+    margin-bottom: 20px ;
+    color: rgb(255, 255, 255);
+}
+input[type="submit"]
+{
+    background: #ffffff;
+    width: 100%;
+    border-radius: 3px;
+    padding: 6px 15px;
+    box-sizing: border-box;
+    border: none ;
+    cursor: pointer;
+    color: #000;
+    font-size: 20px;
+}
+input[type="submit"]:hover
+{
+    background:#E68573 ;
+    transition: .6s;
+}

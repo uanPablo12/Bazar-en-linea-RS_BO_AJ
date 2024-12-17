@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bazar en linea</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <header class="cabeza">
+        <a href="#" class="logo">Style Society Moda y Arte </a>
+     <nav class="menu_var">
+     <a href="#Inicio">Inicio</a>
+     <a href="#Ropa">Ropa</a>
+     <a href="#Accesorios">Accesorios</a>
+     <a href="#Zapatos">Zapatos</a>
+     <a href="#Bolsos">Bolsos</a>
+     <a href="#Acerca_de">Acerca de</a>
+     <a href="#Registro">Registro</a>
+    </nav>     
+   
+    </header>
+
+       <section class="inicio" id="inicio">
+        <div class="content">
+            <p>Descubre tu estilo a un click</p> 
+        </div>
+
+            <div class="botones">
+            <a href="#Ropa" class="btn"><img src="imagenes/ropaunica.jpg" alt=""> ROPA UNICA</a>
+
+            <a href="#Accesorios" class="btn"><img src="imagenes/accesoriosgirl.jpg" alt=""> ACCESORIOS BRILLANTES</a>
+            </div>
+            <div class="botones">
+                <a href="#Zapatos" class="btn"><img src="imagenes/zapatos.jpg" alt=""> ZAPATOS ATREVIDOS</a>
+    
+                <a href="#Bolsos" class="btn"><img src="imagenes/bag.jpg" alt=""> BOLSOS </a>
+            </div>
+
+            </section> 
+            
+            <section class="Ropa" id="Ropa">
+                <p>Encuentra tu nuevo estilo en nuestra ropa</p>
+                <div class="prendas">
+                <img src="imagenes/c4.jpg" alt="">
+                <button>COMPRAR</button>
+                <img src="imagenes/c3.jpg" alt="">
+                <button>COMPRAR</button>
+                <img src="imagenes/c2.jpg" alt="">
+                <button>COMPRAR</button>
+                <img src="imagenes/chamarra.jpg" alt="">
+                <button>COMPRAR</button>
+                <img src="imagenes/pantalon.jpg" alt="">
+                <button>COMPRAR</button>
+                <img src="imagenes/falda.jpg" alt="">
+                <button>COMPRAR</button>
+                </div>
+            </section>
+            <section class="Accesorios" id="Accesorios">
+                <p>Accesorios que no sabias que necesitabas</p>
+                <div>
+                    <img src="imagenes/c4.jpg" alt="">
+                    <button>COMPRAR</button>
+                    <img src="imagenes/c3.jpg" alt="">
+                    <button>COMPRAR</button>
+                    <img src="imagenes/c2.jpg" alt="">
+                    <button>COMPRAR</button>
+                    <img src="imagenes/chamarra.jpg" alt="">
+                    <button>COMPRAR</button>
+                    <img src="imagenes/pantalon.jpg" alt="">
+                    <button>COMPRAR</button>
+                    <img src="imagenes/falda.jpg" alt="">
+                    <button>COMPRAR</button>
+                    </div>
+            </section>
+            <section class="Zapatos" id="Zapatos">
+                <p>zapatos para pisar fuerte</p>
+                <div>
+                    <img src="imagenes/boots.jpg" alt="">
+                    <button>COMPRAR</button>
+                    <img src="imagenes/c4.jpg" alt="">
+                    <button>COMPRAR</button>
+                    <img src="imagenes/c2.jpg" alt="">
+                    <button>COMPRAR</button>
+                    <img src="imagenes/chamarra.jpg" alt="">
+                    <button>COMPRAR</button>
+                    <img src="imagenes/pantalon.jpg" alt="">
+                    <button>COMPRAR</button>
+                    <img src="imagenes/falda.jpg" alt="">
+                    <button>COMPRAR</button>
+                    </div>
+            </section>
+            <section class="Bolsos" id="Bolsos">
+                <p>Bolsos hechos para ti</p>
+                    <div>
+                        <img src="imagenes/bolsa.jpg" alt="">
+                        <button>COMPRAR</button>
+                        <img src="imagenes/esposas.jpg" alt="">
+                        <button>COMPRAR</button>
+                        <img src="imagenes/c2.jpg" alt="">
+                        <button>COMPRAR</button>
+                        <img src="imagenes/chamarra.jpg" alt="">
+                        <button>COMPRAR</button>
+                        <img src="imagenes/pantalon.jpg" alt="">
+                        <button>COMPRAR</button>
+                        <img src="imagenes/falda.jpg" alt="">
+                        <button>COMPRAR</button>
+                    </div>
+            </section>
+            <section class="Acerca_de" id="Acerca_de">
+                <div class="info">
+                    <p>Un poco acerca de nosotros</p>
+                    <p>En esta pagina nos dedicamos a reunir ropa de distintos diseñadores enfocados
+                        en un estilo juvenil, y que se centren en un estilo de moda sustentable, dando como resultado style society
+                        una pagina dedicada a la venta de ropa unica y con un estilo diferente para todos aquellos que les gusta atreverse a ser distintos
+                    </p>
+                    </div> 
+            </section>
+            <section class="Registro" id="Registro">
+                <div class="formulario">
+                    <form action="form.php" method="post">
+                        <table>
+                            <tr>
+                                
+                                <td><input type="text" placeholder="tu nombre" name="nombre" required></td>
+                            </tr>
+                            <tr>
+                                
+                                <td><input type="password" placeholder="tu contraseña" name="password" required></td>
+                            </tr>
+                            <tr>
+                                
+                                <td>
+                                    <input type="radio" name="genero"  value="F" required>FEMENINO
+                                    <input type="radio" name="genero" value="M" required>MASCULINO
+                                </td>
+                            </tr>
+                            <tr>
+                                
+                                <td>
+                                    <input type="email" placeholder="tu correo" name="email" required>
+                                </td>
+                            </tr>
+                            <tr>
+                                
+                                <td>
+                                    <input type="phone" placeholder="tu numero cel." name="telefono" required>
+                                </td>   
+                            </tr> 
+                            
+                            <tr>
+                                <td>
+                                    <input type="submit" value="ENVIAR" name="enviar">
+                                </td>
+                            </tr> 
+                
+                
+                
+                        </table>
+                    </form>
+                </div>
+
+            </section>
+
+            <footer class="pie">  
+                <h3>&copy, ccopyright @2024 Creacion_de_portales_web Maeestro:Jorge Pablo Sanchez Sanchez INTEGRANTES:Rodriguez Sanchez juan pablo-jefe, Banda ordaz Vanya Alexa, Aranda Jimenez Allanis rebeca 5IV10</h3>
+            </footer>
+</body>
+</html>       
